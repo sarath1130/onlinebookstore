@@ -1,0 +1,21 @@
+<html>
+<script>
+n=parseInt(prompt("enter the number"));
+temp = n;
+var p = 0;
+while (n > 0) {
+ 
+    let rem = n % 10;
+    p = (p) + (rem * rem * rem);
+    n = Math.floor(n / 10);
+}
+if (temp == p) {
+    document.write("Yes. It is Armstrong No.");
+}
+else {
+    document.write("No. It is not an Armstrong No.");
+}
+</script>
+</html>
+
+

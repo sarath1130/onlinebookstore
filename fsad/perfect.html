@@ -1,0 +1,21 @@
+<html>
+<script>
+n=parseInt(prompt("enter a range"));
+for(i=1;i<=n;i++)
+{
+	sum=0;
+	for(j=1;j<=i/2;j++)
+	{
+		if(i%j==0)
+		{
+			sum=sum+j;
+		}
+	}
+	if(sum==i)
+	{
+		document.write("<br>"+i);
+	}
+			
+}
+</script>
+</html>
